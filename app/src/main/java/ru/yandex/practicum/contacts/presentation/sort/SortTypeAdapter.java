@@ -26,7 +26,7 @@ public class SortTypeAdapter extends RecyclerView.Adapter<SortTypeAdapter.ViewHo
             new AdapterListUpdateCallback(this),
             new AsyncDifferConfig.Builder<>(new BaseListDiffCallback<SortTypeUI>()).build()
     );
-    //////
+    //////..
 
     private final Consumer<SortTypeUI> clickListener;
 
